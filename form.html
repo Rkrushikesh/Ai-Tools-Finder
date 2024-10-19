@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./form.css">
+  <title> Aiform </title>
+  
+  <style>
+        *{ 
+  background-color: #250057;
+  /* margin-left: 0px; */
+  padding: 0px;
+ }
+ h1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: rgb(245, 245, 245);
+   box-shadow: 0px 0px 2px 2px  rgb(223, 113, 251);
+   margin-bottom: 63px;
+   
+   
+ }
+ .mainbox{ 
+   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+ }
+
+ .box1{
+  display: flex;
+  /* border: 2px solid red; */
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-top: 22px;
+  width: auto;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+ }
+ 
+  input {
+    display: flex;
+  
+    background-color: white;
+    color: rgb(11, 10, 10);
+    padding-left: 25px;
+  }
+  input:Hover{
+    cursor: pointer;
+    /*box-shadow: 0px 0px 12px 2px rgb(223, 113, 251);*/
+    box-shadow: 0px 0px 12px 2px white;
+  }
+
+ .fInput{
+  display: flex;
+  flex-direction: column;
+ }
+ ::placeholder{
+  color: rgb(5, 23, 140);
+ }
+ #input1{
+  display: flex;
+  border: 2px solid rgb(86, 69, 115);  
+  width: 600px;
+  height: 25px;
+  border-radius: 5px;
+ }
+
+
+
+ #input2{
+   display: flex;
+   border: 2px solid rgb(86, 69, 115);
+   width: 600px;
+  height: 25px;
+  margin-top: 42px;
+  border-radius: 5px;
+  
+ }
+ #input3{
+  display: flex;
+  border: 2px solid rgb(86, 69, 115);
+  width: 600px;
+  height: 25px;
+  margin-top: 42px;
+  border-radius: 5px;
+  
+ }
+ #input4{
+  display: flex;
+  border: 2px solid rgb(86, 69, 115);
+  width: 600px;
+  height: 25px;
+  margin-top: 42px;
+  border-radius: 5px;
+  
+ }
+
+ #button{
+  margin-top: 62px;
+  font-size: 19px;
+  color: white;
+  border: 2px solid white;
+  padding: 2px 22px ;
+  border-radius: 20px;
+ }
+
+
+
+ #button:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 12px 2px rgb(223, 113, 251);
+  color: rgb(239, 231, 231);
+ }
+ .p{
+  color: white;
+ }
+ .sighup{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .sigh{
+  
+  margin-top: 52px;
+  color: rgb(120, 248, 22);
+  display: flex;
+
+  justify-content: center;
+ }
+ .sigh:hover{
+  cursor: pointer;
+ }
+  </style>
+</head>
+
+<body>
+  <!-- login form - 
+   . add heading login form 
+   . create div box - inside create fields , check box , link , button  -->
+
+
+   <h1> Sign In  </h1>
+   
+   <div class="mainbox">
+     
+     <div class="box1">
+      
+
+      <div class="fInput">
+        
+        <form action="registation">
+
+          <input id="input1" type="text" name="name" placeholder="enter your name ">
+          
+          <input id="input2" type="text" name="email" placeholder="email">
+          <input id="input3" type="text" name="phone" placeholder="phone">
+          <input id="input4" type="password" name="password" placeholder="password">
+          
+          <button id="button"> submit </button>
+          
+        </form>
+
+      </div>
+
+
+
+
+    </div>
+
+  </div>
+   <span class="sigh" onclick="location.href='./AiTools.html'" > ← Back To Home page  </span> </div>
+
+  
+  
+
+
+
+</body>
+
+</html>
